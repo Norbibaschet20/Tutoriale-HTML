@@ -30,3 +30,7 @@ title      Specifies extra information about an element (displayed as a tool tip
 <blockquote>	Defines a section that is quoted from another source
 <cite>	        Defines the title of a work
 <q>	            Defines a short inline quotation
+
+------HTML Comment Tags
+
+<!-- This is a comment -->  Comments are not displayed by the browser, but they can help document your HTML source code.
