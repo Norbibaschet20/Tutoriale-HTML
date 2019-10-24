@@ -34,3 +34,13 @@ title      Specifies extra information about an element (displayed as a tool tip
 ------HTML Comment Tags
 
 <!-- This is a comment -->  Comments are not displayed by the browser, but they can help document your HTML source code.
+
+------Colors
+
+ style="background-color:DodgerBlue;">Hello World   You can set the background color
+ style="color:Tomato;">Hello World                  You can set the color of text
+ style="border:2px solid Tomato;">Hello World       You can set the color of borders
+ 
+ style="background-color:rgb(255, 99, 71)
+ style="background-color:#ff6347                    Same color using HSL HEX RGB
+ style="background-color:hsl(9, 100%, 64%)
