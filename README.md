@@ -57,3 +57,13 @@ Use the CSS font-size property for text sizes
 Use the CSS border property for borders
 Use the CSS padding property for space inside the border
 Use the CSS margin property for space outside the border
+
+-------HTML Links
+
+<a>	        Defines a hyperlink
+Use the href attribute to define the link address
+Use the target attribute to define where to open the linked document
+Use the <img> element (inside <a>) to use an image as a link
+Use the id attribute (id="value") to define bookmarks in a page
+Use the href attribute (href="#value") to link to the bookmark
+The title attribute specifies extra information about an element.
