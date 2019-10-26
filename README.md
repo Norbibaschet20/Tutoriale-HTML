@@ -67,3 +67,14 @@ Use the <img> element (inside <a>) to use an image as a link
 Use the id attribute (id="value") to define bookmarks in a page
 Use the href attribute (href="#value") to link to the bookmark
 The title attribute specifies extra information about an element.
+
+--------HTML Images
+
+<img>	Defines an image
+<map>	Defines an image-map
+<area>	Defines a clickable area inside an image-map
+<picture>	Defines a container for multiple image resources
+Use the HTML src attribute to define the URL of the image
+Use the HTML alt attribute to define an alternate text for an image, if it cannot be displayed
+Use the HTML width and height attributes to define the size of the image
+Use the CSS float property to let the image float
