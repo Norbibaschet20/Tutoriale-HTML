@@ -99,3 +99,8 @@ Use the CSS float property to let the image float
 <dd>	Describes the term in a description list
 Use the CSS list-style-type property to define the list item marker
 Use the HTML type attribute to define the numbering type
+
+------HTML Blocks
+
+<div>	Defines a section in a document (block-level)
+<span>	Defines a section in a document (inline)
