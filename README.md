@@ -104,3 +104,7 @@ Use the HTML type attribute to define the numbering type
 
 <div>	Defines a section in a document (block-level)
 <span>	Defines a section in a document (inline)
+
+-----HTML Classes
+
+class="abc" --->  .abc {...}
