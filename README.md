@@ -88,3 +88,14 @@ Use the CSS float property to let the image float
 <caption>	Defines a table caption
 <colgroup>	Specifies a group of one or more columns in a table for formatting
 <col>	    Specifies column properties for each column within a <colgroup> element
+
+-------HTML Lists
+
+<ul>	Defines an unordered list
+<ol>	Defines an ordered list
+<li>	Defines a list item
+<dl>	Defines a description list
+<dt>	Defines a term in a description list
+<dd>	Describes the term in a description list
+Use the CSS list-style-type property to define the list item marker
+Use the HTML type attribute to define the numbering type
