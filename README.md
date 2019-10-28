@@ -108,3 +108,7 @@ Use the HTML type attribute to define the numbering type
 -----HTML Classes
 
 class="abc" --->  .abc {...}
+
+-----HTML Id
+
+id="abc" --->  #abc {...}
