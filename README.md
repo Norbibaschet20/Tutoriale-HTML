@@ -128,3 +128,14 @@ id="abc" --->  #abc {...}
 <img src="images/picture.jpg">	picture.jpg is located in the images folder in the current folder
 <img src="/images/picture.jpg">	picture.jpg is located in the images folder at the root of the current web
 <img src="../picture.jpg">	picture.jpg is located in the folder one level up from the current folder 
+
+-----HTML Head
+
+<head>	Defines information about the document
+<title>	Defines the title of a document
+<base>	Defines a default address or a default target for all links on a page
+<link>	Defines the relationship between a document and an external resource
+<meta>	Defines metadata about an HTML document
+<script>	Defines a client-side script
+<style>	Defines style information for a document
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    The viewport is the user's visible area of a web page. It varies with the device, and will be smaller on a mobile phone than on a computer screen.
