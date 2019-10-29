@@ -139,3 +139,24 @@ id="abc" --->  #abc {...}
 <script>	Defines a client-side script
 <style>	Defines style information for a document
 <meta name="viewport" content="width=device-width, initial-scale=1.0">    The viewport is the user's visible area of a web page. It varies with the device, and will be smaller on a mobile phone than on a computer screen.
+
+-----HTML Layouts
+
+HTML Layout Techniques
+There are five different ways to create multicolumn layouts. Each way has its pros and cons:
+
+HTML tables (not recommended)
+CSS float property
+CSS flexbox
+CSS framework
+CSS grid
+
+
+<header> - Defines a header for a document or a section
+<nav> - Defines a container for navigation links
+<section> - Defines a section in a document
+<article> - Defines an independent self-contained article
+<aside> - Defines content aside from the content (like a sidebar)
+<footer> - Defines a footer for a document or a section
+<details> - Defines additional details
+<summary> - Defines a heading for the <details> element
