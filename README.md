@@ -117,3 +117,7 @@ id="abc" --->  #abc {...}
 
 <iframe>	Defines an inline frame
 
+----HTML Javascript
+
+<script>	Defines a client-side script
+<noscript>	Defines an alternate content for users that do not support client-side scripts
