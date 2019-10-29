@@ -106,8 +106,8 @@ Use the HTML type attribute to define the numbering type
 <span>	Defines a section in a document (inline)
 
 -----HTML Classes
-
 class="abc" --->  .abc {...}
+
 
 -----HTML Id
 
@@ -121,3 +121,10 @@ id="abc" --->  #abc {...}
 
 <script>	Defines a client-side script
 <noscript>	Defines an alternate content for users that do not support client-side scripts
+
+-----HTML Filepath
+
+<img src="picture.jpg">	picture.jpg is located in the same folder as the current page
+<img src="images/picture.jpg">	picture.jpg is located in the images folder in the current folder
+<img src="/images/picture.jpg">	picture.jpg is located in the images folder at the root of the current web
+<img src="../picture.jpg">	picture.jpg is located in the folder one level up from the current folder 
