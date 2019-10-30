@@ -167,3 +167,11 @@ CSS grid
 If the max-width property is set to 100%, the image will scale down if it has to, but never scale up to be larger than its original size
 font-size:10vw   That way the text size will follow the size of the browser window
 
+----HTML Computercode
+
+<code>	Defines programming code
+<kbd>	Defines keyboard input 
+<samp>	Defines computer output
+<var>	Defines a variable
+<pre>	Defines preformatted text
+
