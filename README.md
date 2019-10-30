@@ -160,3 +160,10 @@ CSS grid
 <footer> - Defines a footer for a document or a section
 <details> - Defines additional details
 <summary> - Defines a heading for the <details> element
+
+-----HTML Responsive
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  When making responsive web pages, add the following <meta> element in all your web pages
+If the max-width property is set to 100%, the image will scale down if it has to, but never scale up to be larger than its original size
+font-size:10vw   That way the text size will follow the size of the browser window
+
