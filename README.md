@@ -175,3 +175,5 @@ font-size:10vw   That way the text size will follow the size of the browser wind
 <var>	Defines a variable
 <pre>	Defines preformatted text
 
+-----HTML Entities  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
