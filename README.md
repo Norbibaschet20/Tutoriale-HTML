@@ -177,3 +177,18 @@ font-size:10vw   That way the text size will follow the size of the browser wind
 
 -----HTML Entities  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+-----HTML Charset  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+-----HTML Forms
+
+<input type="text">	    Defines a one-line text input field
+<input type="radio">	Defines a radio button (for selecting one of many choices)
+<input type="submit">	Defines a submit button (for submitting the form)
+<metod="post">          The POST method does not display the submitted form data in the page address field.
+<method="get">          When GET is used, the submitted form data will be visible in the page address field
+<action>	            Specifies an address (url) where to submit the form (default: the submitting page).
+<name>	                Specifies a name used to identify the form (for DOM usage: document.forms.name).
+<target>	            Specifies the target of the address in the action attribute (default: _self).
+
+
+
