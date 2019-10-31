@@ -190,5 +190,18 @@ font-size:10vw   That way the text size will follow the size of the browser wind
 <name>	                Specifies a name used to identify the form (for DOM usage: document.forms.name).
 <target>	            Specifies the target of the address in the action attribute (default: _self).
 
+----HTML Form Elements
 
+<form>	    Defines an HTML form for user input
+<input>	    Defines an input control
+<textarea>	Defines a multiline input control (text area)
+<label>	    Defines a label for an <input> element
+<fieldset>	Groups related elements in a form
+<legend>	Defines a caption for a <fieldset> element
+<select>	Defines a drop-down list
+<optgroup>	Defines a group of related options in a drop-down list
+<option>	Defines an option in a drop-down list
+<button>	Defines a clickable button
+<datalist>	Specifies a list of pre-defined options for input controls
+<output>	Defines the result of a calculation
 
