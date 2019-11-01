@@ -205,3 +205,27 @@ font-size:10vw   That way the text size will follow the size of the browser wind
 <datalist>	Specifies a list of pre-defined options for input controls
 <output>	Defines the result of a calculation
 
+-----HTML Input Types
+
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
