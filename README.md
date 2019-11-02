@@ -264,10 +264,32 @@ Typical HTML4	        Typical HTML5
 <div class="article">	<article>
 <div id="footer">	    <footer>
 
-HTML Graphics
+
+
+-------------------HTML Graphics --------------------------
 
 HTML5 Canvas
 
 The HTML <canvas> element is used to draw graphics, on the fly, via JavaScript.
 The <canvas> element is only a container for graphics. You must use JavaScript to actually draw the graphics.
 Canvas has several methods for drawing paths, boxes, circles, text, and adding images.
+
+Comparison of Canvas and SVG
+The table below shows some important differences between Canvas and SVG:
+
+What is SVG?
+SVG stands for Scalable Vector Graphics
+SVG is used to define graphics for the Web
+SVG is a W3C recommendation
+
+Canvas	SVG
+Resolution dependent
+No support for event handlers
+Poor text rendering capabilities
+You can save the resulting image as .png or .jpg
+Well suited for graphic-intensive games
+Resolution independent
+Support for event handlers
+Best suited for applications with large rendering areas (Google Maps)
+Slow rendering if complex (anything that uses the DOM a lot will be slow)
+Not suited for game applications
