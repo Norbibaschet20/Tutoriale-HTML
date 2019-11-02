@@ -229,3 +229,6 @@ font-size:10vw   That way the text size will follow the size of the browser wind
 <input type="time">
 <input type="url">
 <input type="week">
+
+-----HTML Input Attributes
+
