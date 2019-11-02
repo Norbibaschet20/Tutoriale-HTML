@@ -263,3 +263,11 @@ Typical HTML4	        Typical HTML5
 <div id="content">	    <section>
 <div class="article">	<article>
 <div id="footer">	    <footer>
+
+HTML Graphics
+
+HTML5 Canvas
+
+The HTML <canvas> element is used to draw graphics, on the fly, via JavaScript.
+The <canvas> element is only a container for graphics. You must use JavaScript to actually draw the graphics.
+Canvas has several methods for drawing paths, boxes, circles, text, and adding images.
