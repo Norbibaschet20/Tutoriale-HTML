@@ -305,4 +305,14 @@ It is a good idea to always include width and height attributes. If height and w
 The HTML5 <audio> element specifies a standard way to embed audio in a web page.
 The controls attribute adds audio controls, like play, pause, and volume.
 
+-----HTML Plug-ins
+
+Plug-ins can be added to web pages with the <object> tag or the <embed> tag. 
+Plug-ins can be used for many purposes: display maps, scan for viruses, verify your bank id, etc.
+The <object> element is supported by all browsers.
+
+The <object> element defines an embedded object within an HTML document.
+
+It is used to embed plug-ins (like Java applets, PDF readers, Flash Players) in web pages.
+
 
