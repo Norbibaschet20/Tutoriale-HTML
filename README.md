@@ -293,3 +293,8 @@ Support for event handlers
 Best suited for applications with large rendering areas (Google Maps)
 Slow rendering if complex (anything that uses the DOM a lot will be slow)
 Not suited for game applications
+
+-------HTML Video
+The HTML5 <video> element specifies a standard way to embed a video in a web page.
+The controls attribute adds video controls, like play, pause, and volume.
+It is a good idea to always include width and height attributes. If height and width are not set, the page might flicker while the video loads.
