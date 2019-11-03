@@ -315,4 +315,19 @@ The <object> element defines an embedded object within an HTML document.
 
 It is used to embed plug-ins (like Java applets, PDF readers, Flash Players) in web pages.
 
+------HTML Youtube Videos
+
+To play your video on a web page, do the following:
+
+Upload the video to YouTube
+Take a note of the video id
+Define an <iframe> element in your web page
+Let the src attribute point to the video URL
+Use the width and height attributes to specify the dimension of the player
+Add any other parameters to the URL (see below)              
+
+<iframe width="420" height="315"
+    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+
 
