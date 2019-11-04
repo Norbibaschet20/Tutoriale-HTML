@@ -331,3 +331,32 @@ Add any other parameters to the URL (see below)
 </iframe>
 
 
+-------HTML Drag&Drop
+
+First of all: To make an element draggable, set the draggable attribute to true:  <img draggable="true">
+In the example above, the ondragstart attribute calls a function, drag(event), that specifies what data to be dragged.
+The dataTransfer.setData() method sets the data type and the value of the dragged data:         function drag(ev) {
+                                                                                                     ev.dataTransfer.setData("text", ev.target.id);
+                                                                                                                 }
+
+The ondragover event specifies where the dragged data can be dropped.
+
+In the example above, the ondrop attribute calls a function, drop(event):
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+
+-----HTML Geolocation
+
+coords.latitude	        The latitude as a decimal number (always returned)
+coords.longitude	    The longitude as a decimal number (always returned)
+coords.accuracy	        The accuracy of position (always returned)
+coords.altitude	        The altitude in meters above the mean sea level (returned if available)
+coords.altitudeAccuracy	The altitude accuracy of position (returned if available)
+coords.heading	        The heading as degrees clockwise from North (returned if available)
+coords.speed	        The speed in meters per second (returned if available)
+timestamp	            The date/time of the response (returned if available)
+
