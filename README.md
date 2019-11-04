@@ -360,3 +360,9 @@ coords.heading	        The heading as degrees clockwise from North (returned if 
 coords.speed	        The speed in meters per second (returned if available)
 timestamp	            The date/time of the response (returned if available)
 
+------HTML Web Storage
+
+window.localStorage     -   stores data with no expiration date
+window.sessionStorage   -   stores data for one session (data is lost when the browser tab is closed)
+
+
