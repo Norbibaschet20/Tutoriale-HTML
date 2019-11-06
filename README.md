@@ -365,4 +365,6 @@ timestamp	            The date/time of the response (returned if available)
 window.localStorage     -   stores data with no expiration date
 window.sessionStorage   -   stores data for one session (data is lost when the browser tab is closed)
 
+-----HTML SSE !!!!!!!!!!!
+
 
