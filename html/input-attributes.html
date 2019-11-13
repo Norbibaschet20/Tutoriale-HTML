@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The value Attribute</h2>
+<p>The value attribute specifies the initial value for an input field:</p>
+
+<form action="">
+    First name:<br>
+    <input type="text" name="firstname" value="John">          <!--<value>--!>
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname">
+</form>
+
+<form action="">
+    First name:<br>
+    <input type="text" name="firstname" value="John" readonly>     <!--<readonly--!>
+</form>
+
+<form action="">
+    First name:<br>
+    <input type="text" name="firstname" value="John" size="40">      <!--<size>--!>
+</form>
+
+<form action="">
+    First name:<br>
+    <input type="text" name="firstname" maxlength="10">                <!--<maxlenght>--!>
+</form>
+
+<form action="/action_page.php" autocomplete="on">
+    First name:<input type="text" name="fname"><br>
+    Last name: <input type="text" name="lname"><br>                    <!--<autocomplete>--!>
+    E-mail: <input type="email" name="email" autocomplete="off"><br>
+    <input type="submit">
+</form>
+
+<form action="/action_page.php">
+    First name:<input type="text" name="fname" autofocus><br>            <!--<autofocus>--!>
+    Last name: <input type="text" name="lname"><br>
+    <input type="submit">
+</form>
+</body>
+</html>
