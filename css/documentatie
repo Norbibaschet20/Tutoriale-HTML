@@ -58,3 +58,38 @@ hidden  -     Defines a hidden border
      margin-left	        Sets the left margin of an element
      margin-right	        Sets the right margin of an element
      margin-top	            Sets the top margin of an element
+
+-----CSS Padding Properties
+     Property	            Description
+     padding	            A shorthand property for setting all the padding properties in one declaration
+     padding-bottom	        Sets the bottom padding of an element
+     padding-left	        Sets the left padding of an element
+     padding-right	        Sets the right padding of an element
+     padding-top	        Sets the top padding of an element
+
+-----CSS Dimension Properties
+     Property	            Description
+     height	                Sets the height of an element
+     max-height	            Sets the maximum height of an element
+     max-width	            Sets the maximum width of an element
+     min-height             Sets the minimum height of an element
+     min-width	            Sets the minimum width of an element
+     width	                Sets the width of an element
+
+------CSS Box Model
+
+        Explanation of the different parts:
+
+          Content - The content of the box, where text and images appear
+          Padding - Clears an area around the content. The padding is transparent
+          Border -  A border that goes around the padding and content
+          Margin -  Clears an area outside the border. The margin is transparent
+          The box model allows us to add a border around elements, and to define space between elements.
+
+----CSS Outline Properties
+    Property	           Description
+    outline                A shorthand property for setting outline-width, outline-style, and outline-color in one declaration
+    outline-color	       Sets the color of an outline
+    outline-offset	       Specifies the space between an outline and the edge or border of an element
+    outline-style	       Sets the style of an outline
+    outline-width	       Sets the width of an outline
