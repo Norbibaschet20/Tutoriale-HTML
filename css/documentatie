@@ -93,3 +93,53 @@ hidden  -     Defines a hidden border
     outline-offset	       Specifies the space between an outline and the edge or border of an element
     outline-style	       Sets the style of an outline
     outline-width	       Sets the width of an outline
+
+-----CSS Text Properties
+     Property	            Description
+     color	                Sets the color of text
+     direction	            Specifies the text direction/writing direction
+     letter-spacing	        Increases or decreases the space between characters in a text
+     line-height	        Sets the line height
+     text-align	            Specifies the horizontal alignment of text
+     text-decoration	    Specifies the decoration added to text
+     text-indent	        Specifies the indentation of the first line in a text-block
+     text-shadow	        Specifies the shadow effect added to text
+     text-transform	        Controls the capitalization of text
+     text-overflow	        Specifies how overflowed content that is not displayed should be signaled to the user
+     unicode-bidi	        Used together with the direction property to set or return whether the text should be overridden to support multiple languages in the same document
+     vertical-align	        Sets the vertical alignment of an element
+     white-space	        Specifies how white-space inside an element is handled
+     word-spacing	        Increases or decreases the space between words in a text
+
+----CSS Font Properties
+    Property	            Description
+    font	                Sets all the font properties in one declaration
+    font-family	            Specifies the font family for text
+    font-size	            Specifies the font size of text
+    font-style	            Specifies the font style for text
+    font-variant	        Specifies whether or not a text should be displayed in a small-caps font
+    font-weight	            Specifies the weight of a font
+
+--------CSS List Properties
+    Property	            Description
+    list-style	            Sets all the properties for a list in one declaration
+    list-style-image	    Specifies an image as the list-item marker
+    list-style-position	    Specifies the position of the list-item markers (bullet points)
+    list-style-type	        Specifies the type of list-item marker
+
+-----CSS Table Properties
+    Property	            Description
+    border	                Sets all the border properties in one declaration
+    border-collapse	        Specifies whether or not table borders should be collapsed
+    border-spacing	        Specifies the distance between the borders of adjacent cells
+    caption-side	        Specifies the placement of a table caption
+    empty-cells	            Specifies whether or not to display borders and background on empty cells in a table
+    table-layout	        Sets the layout algorithm to be used for a table
+
+----CSS Display/Visibility Properties
+    Property	            Description
+    display	                Specifies how an element should be displayed
+    visibility	            Specifies whether or not an element should be visible
+
+
+
