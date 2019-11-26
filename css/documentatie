@@ -227,4 +227,32 @@ hidden  -     Defines a hidden border
     counter-reset	                            Creates or resets one or more counters
 
 
+----CSS Rounded Corners Properties
+    Property	                                Description
+    border-radius	                            A shorthand property for setting all the four border-*-*-radius properties
+    border-top-left-radius	                    Defines the shape of the border of the top-left corner
+    border-top-right-radius	                    Defines the shape of the border of the top-right corner
+    border-bottom-right-radius	                Defines the shape of the border of the bottom-right corner
+    border-bottom-left-radius	                Defines the shape of the border of the bottom-left corner
+
+----CSS Border Image Properties
+    Property	                                Description
+    border-image	                            A shorthand property for setting all the border-image-* properties
+    border-image-source	                        Specifies the path to the image to be used as a border
+    border-image-slice	                        Specifies how to slice the border image
+    border-image-width	                        Specifies the widths of the border image
+    border-image-outset	                        Specifies the amount by which the border image area extends beyond the border box
+    border-image-repeat	                        Specifies whether the border image should be repeated, rounded or stretched
+
+----CSS Advanced Background Properties
+    Property	                                Description
+    background	                                A shorthand property for setting all the background properties in one declaration
+    background-clip	                            Specifies the painting area of the background
+    background-image	                        Specifies one or more background images for an element
+    background-origin	                        Specifies where the background image(s) is/are positioned
+    background-size	                            Specifies the size of the background image(s)
+
+
+
+
 
