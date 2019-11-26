@@ -220,5 +220,11 @@ hidden  -     Defines a hidden border
     [attribute*=value]	a[href*="w3schools"]	Selects every <a> element whose href attribute value contains the substring "w3schools"
 
 
+----CSS Counter Properties!!!!!!!!!!
+    Property	                                Description
+    content	                                    Used with the ::before and ::after pseudo-elements, to insert generated content
+    counter-increment	                        Increments one or more counter values
+    counter-reset	                            Creates or resets one or more counters
+
 
 
