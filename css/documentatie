@@ -253,6 +253,45 @@ hidden  -     Defines a hidden border
     background-size	                            Specifies the size of the background image(s)
 
 
+----CSS Shadow Properties
+    Property	                                Description
+    box-shadow	                                Adds one or more shadows to an element
+    text-shadow	                                Adds one or more shadows to a text
+
+----CSS Text Effect Properties
+    Property	                                Description
+    text-align-last	                            Specifies how to align the last line of a text
+    text-justify	                            Specifies how justified text should be aligned and spaced
+    text-overflow	                            Specifies how overflowed content that is not displayed should be signaled to the user
+    word-break	                                Specifies line breaking rules for non-CJK scripts
+    word-wrap	                                Allows long words to be able to be broken and wrap onto the next line
+    writing-mode	                            Specifies whether lines of text are laid out horizontally or vertically
+
+----CSS 2D Transform Methods
+    Function	                                Description
+    matrix(n,n,n,n,n,n)	                        Defines a 2D transformation, using a matrix of six values
+    translate(x,y)	                            Defines a 2D translation, moving the element along the X- and the Y-axis
+    translateX(n)	                            Defines a 2D translation, moving the element along the X-axis
+    translateY(n)	                            Defines a 2D translation, moving the element along the Y-axis
+    scale(x,y)	                                Defines a 2D scale transformation, changing the elements width and height
+    scaleX(n)	                                Defines a 2D scale transformation, changing the element's width
+    scaleY(n)	                                Defines a 2D scale transformation, changing the element's height
+    rotate(angle)	                            Defines a 2D rotation, the angle is specified in the parameter
+    skew(x-angle,y-angle)	                    Defines a 2D skew transformation along the X- and the Y-axis
+    skewX(angle)	                            Defines a 2D skew transformation along the X-axis
+    skewY(angle)	                            Defines a 2D skew transformation along the Y-axis
+
+----CSS Transition Properties
+
+   Property	                                    Description
+    transition	                                A shorthand property for setting the four transition properties into a single property
+    transition-delay	                        Specifies a delay (in seconds) for the transition effect
+    transition-duration	                        Specifies how many seconds or milliseconds a transition effect takes to complete
+    transition-property	                        Specifies the name of the CSS property the transition effect is for
+    transition-timing-function	                Specifies the speed curve of the transition effect
+
+
+
 
 
 
