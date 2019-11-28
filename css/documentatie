@@ -290,6 +290,42 @@ hidden  -     Defines a hidden border
     transition-property	                        Specifies the name of the CSS property the transition effect is for
     transition-timing-function	                Specifies the speed curve of the transition effect
 
+----CSS Animation Properties
+
+    Property	                                Description
+    @keyframes	                                Specifies the animation code
+    animation	                                A shorthand property for setting all the animation properties
+    animation-delay	                            Specifies a delay for the start of an animation
+    animation-direction	                        Specifies whether an animation should be played forwards, backwards or in alternate cycles
+    animation-duration	                        Specifies how long time an animation should take to complete one cycle
+    animation-fill-mode	                        Specifies a style for the element when the animation is not playing (before it starts, after it ends, or both)
+    animation-iteration-count	                Specifies the number of times an animation should be played
+    animation-name	                            Specifies the name of the @keyframes animation
+    animation-play-state	                    Specifies whether the animation is running or paused
+    animation-timing-function	                Specifies the speed curve of the animation
+
+----CSS Multi-columns Properties
+
+    Property	                                Description
+    column-count	                            Specifies the number of columns an element should be divided into
+    column-fill                             	Specifies how to fill columns
+    column-gap	                                Specifies the gap between the columns
+    column-rule	                                A shorthand property for setting all the column-rule-* properties
+    column-rule-color	                        Specifies the color of the rule between columns
+    column-rule-style	                        Specifies the style of the rule between columns
+    column-rule-width	                        Specifies the width of the rule between columns
+    column-span	                                Specifies how many columns an element should span across
+    column-width	                            Specifies a suggested, optimal width for the columns
+    columns	                                    A shorthand property for setting column-width and column-count
+
+
+----CSS User Interface Properties
+
+    Property	                                Description
+    outline-offset	                            Adds space between an outline and the edge or border of an element
+    resize	                                    Specifies whether or not an element is resizable by the user
+
+
 
 
 
