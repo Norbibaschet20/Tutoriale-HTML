@@ -1,0 +1,28 @@
+GIT
+
+---- Make a ne commit:
+git status
+git add .
+git commit -m "Some description"
+git push origin branch_name
+
+--- Commit amend
+git status
+git add .
+git commit -m "Some description"
+Add changes
+git log -to see the commit list
+git add .
+git commit --amend
+git push origin branch_name
+
+----Create a new branch
+git checkout master
+git checkout -b branch_name
+git push --set-upstream origin branch_name
+
+
+---- Move to another branch
+git checkout branch_name
+
+
