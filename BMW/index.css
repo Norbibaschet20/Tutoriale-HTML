@@ -25,11 +25,12 @@
     list-style-type: none;
     background-color: #4CAF50;
     width: 100%;
-    padding: 10px 60px;
+    padding: 9px 61px;
     margin: 2px;
     text-align: center;
     color: white;
-    max-height: 18px;
+    max-height: 32px;
+
 }
 .menu li:hover{
     background-color: #0487ff;
@@ -77,6 +78,26 @@
     padding: 10px;
 }
 
-.seria2, .seria4, .seria6{
+.seria2, .seria4, .seria6, .seria8{
     flex-direction: row-reverse;
+}
+
+.footer{
+    background-color: #454545;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.logo{
+    margin-left: 150px;
+    margin-top: 5px;
+}
+
+.contact-details{
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 180px;
+    font-size: 20px;
 }
