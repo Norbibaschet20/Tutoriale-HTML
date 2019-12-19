@@ -95,7 +95,6 @@
 
 .footer{
     background-color: #454545;
-    height: 200px;
     display: flex;
     justify-content: space-between;
     color: white;
@@ -141,7 +140,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .top-bar, .menu, .row {
+    .top-bar, .menu, .row, .footer {
         flex-direction: column;
     }
 
@@ -158,6 +157,10 @@
 
     .menu li a{
         font-size: 12px;
+    }
+
+    .footer .logo {
+        width: 100%;
     }
 
     .mobile-menu{
