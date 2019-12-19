@@ -13,6 +13,10 @@
 .bmw2{
     width: 100%;
 }
+/****TOGGLE****/
+.nav-toggle{
+    display: none;
+}
 
 .menu{
     display: flex;
@@ -21,10 +25,10 @@
     padding: 0;
 }
 
-.menu li{
+.menu li {
     list-style-type: none;
     background-color: #4CAF50;
-    width: 100%;
+    width: auto;
     padding: 9px 61px;
     margin: 2px;
     text-align: center;
@@ -32,10 +36,15 @@
     max-height: 32px;
 
 }
+
+.menu li a{
+ color: white;
+    text-decoration: none;
+}
+
 .menu li:hover{
     background-color: #0487ff;
     color: #454545;
-    font-size: 18px;
 }
 
 .menu li:first-child{
@@ -57,6 +66,8 @@
 
 .left img{
     width: 100%;
+    min-width: 740px;
+    max-width: 740px;
     height: 350px;
 }
 
@@ -73,7 +84,7 @@
 .right button{
     background-color: #4CAF50;
     color: white;
-    width: 15%;
+    width: auto;
     margin: 30px auto;
     padding: 10px;
 }
@@ -91,8 +102,12 @@
 }
 
 .logo{
-    margin-left: 150px;
-    margin-top: 5px;
+    width: 25%;
+    display: flex;
+}
+
+.logo img{
+    margin: 15px auto 15px auto;
 }
 
 .contact-details{
@@ -101,9 +116,67 @@
     margin-right: 180px;
     font-size: 20px;
 }
+.contact-details .item{
+    display: flex;
+    margin-top: 10px;
+}
 
-.logo-adresa{
-    max-height: 40px;
-    margin-top: 25px;
+.contact-details .item img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
 
+.contact-details .item address{
+    line-height: 35px;
+    font-size: 17px;
+}
+
+.contact-details .item a{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .top-bar, .menu, .row {
+        flex-direction: column;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .menu li{
+        padding: 5px 10px;
+        text-align: left;
+        margin: 0.5px;
+        margin-left: 0;
+    }
+
+    .menu li a{
+        font-size: 12px;
+    }
+
+    .mobile-menu{
+        background-color: #4CAF50;
+    }
+
+    .nav-toggle-label:before {
+        color: white;
+        content: '☰';
+        padding: 10px;
+    }
+    .nav-toggle:checked + .menu {
+        display: flex;
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1400px) {
+    .row {
+        flex-direction: column;
+    }
 }

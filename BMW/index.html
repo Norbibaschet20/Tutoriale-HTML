@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="index.css">
     <title>BMW</title>
 </head>
@@ -20,6 +21,13 @@
 <img src="images/bmw2.jpg" alt="bmw2" class="bmw2"/>
 
 <!--menu-->
+
+<header class="mobile-menu">
+    <label for="nav-toggle" class="nav-toggle-label"></label>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+
 <ul class="menu">
     <li><a href="http://localhost:63342/Tutoriale-HTML/BMW/index.html?_ijt=43kfgui9tdpuk36vh1usfgd7bi">Acasa</a></li>
     <li><a href="https://www.bmw.ro/ro/all-models/1-series/5-door/2019/bmw-seria-1-inspira-te.html">Seria 1</a></li>
@@ -134,9 +142,21 @@
 
 <!--footer-->
 <div class="footer">
-    <img src="images/logo.png" alt="logo" class="logo"/>
-    <a></a>
-    <div class="contact-details">Contact Details</div>
+    <div class="logo"><img src="images/logo.png" alt="logo" /></div>
+    <div class="contact-details">
+        <div>Contact Details</div>
+        <div class="item">
+            <img src="images/address.png"/>
+            <address>Str. Avram Jancu No. 396-398 Floresti</address>
+        </div>
+        <div class="item">
+            <img src="images/phone.png"/>
+            <a href="tel:+0264 595837">0264 595837</a>
+        </div>
+        <div class="item">
+            <img src="images/mail.png"/>
+            <a href="mailto:bmwgenius@bmwusa.com">bmwgenius@bmwusa.com</a>
+        </div>
 </div>
 </body>
 </html>
