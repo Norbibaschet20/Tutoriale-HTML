@@ -1,0 +1,142 @@
+.top-bar  {
+    width: 100%;
+    height: 100px;
+    background-image: url(images/footer.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left img {
+    height: 100px;
+    padding-left: 120px;
+}
+
+.right {
+    display: flex;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    padding-right: 200px;
+    padding-top: 40px;
+}
+
+.right div {
+    padding: 0 50px;
+    font-family: Arial;
+}
+
+.front img {
+    width: 70%;
+    padding-left: 280px;
+    padding-top: 50px;
+    height: 480px;
+}
+
+.preview {
+    background-color: lightgrey;
+    height: 680px;
+}
+.down {
+    display: flex;
+    justify-content: center;
+}
+
+.down img {
+    width: 10%;
+    height: 80px;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 25px;
+    padding-left: 50px;
+    padding-top: 50px;
+    color: #454545;
+}
+
+.preview-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.preview-2 img {
+    width: 30%;
+    height: 200px;
+    padding-top: 30px;
+}
+
+.preview-text-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.preview-text-1 div {
+    font-weight: bold;
+    padding-right: 100px;
+    padding-top: 17px;
+    color: #0487ff;
+    font-size: 20px;
+
+}
+
+.preview-text-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.preview-text-2 div {
+    padding-top: 20px;
+    padding-left: 29px;
+    padding-bottom: 60px;
+}
+
+.button {
+    border-radius: 6px;
+    padding: 8px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    background-image: linear-gradient(white, lightgrey);
+    position: absolute;
+    right: 100px;
+    top: 1200px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgrey;
+    color: #454545;
+    height: 80px;
+}
+
+.left-footer {
+    display: flex;
+    padding-left: 100px;
+    justify-content: space-between;
+    width: auto;
+}
+
+.left-footer img {
+    width: 30px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 30px;
+
+}
+
+.right-footer {
+    display: flex;
+}
+
+.right-footer div{
+    padding-right: 80px;
+    padding-top: 33px;
+    font-size: 16px;
+    color: black;
+}
