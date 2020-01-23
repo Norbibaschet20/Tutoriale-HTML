@@ -6,7 +6,7 @@ npx sass --watch BMW/index.scss BMW/index.css
 @charset "UTF-8";
 
 //variables
-$green1: #454545;
+$gray1: #454545;
 $green2: #4CAF50;
 $blue1: #0487ff;
 
@@ -15,9 +15,17 @@ $blue1: #0487ff;
   justify-content: space-between;
 }
 
+@mixin bgd($color){
+  background-color: $color;
+}
+
+body{
+  font-family: "Arial Narrow";
+}
+
 .top-bar {
   @include flex-container;
-  background-color: $green1;
+  @include bgd($gray1);
   padding: 15px;
   color: white;
 }
@@ -42,7 +50,7 @@ $blue1: #0487ff;
 
   li {
     list-style-type: none;
-    background-color: $green2;
+    @include bgd($green2);
     width: auto;
     padding: 9px 61px;
     margin: 2px;
@@ -56,8 +64,8 @@ $blue1: #0487ff;
     }
 
     &:hover {
-      background-color: $blue1;
-      color: $green1;
+      @include bgd($blue1);
+      color: $gray1;
     }
 
     &:first-child {
@@ -97,7 +105,7 @@ $blue1: #0487ff;
   }
 
   button {
-    background-color: $green2;
+    @include bgd($green2);
     color: white;
     width: auto;
     margin: 30px auto;
@@ -110,7 +118,7 @@ $blue1: #0487ff;
 }
 
 .footer {
-  background-color: $green1;
+  @include bgd($gray1);
   @include flex-container;
   color: white;
 }
@@ -180,7 +188,7 @@ $blue1: #0487ff;
   }
 
   .mobile-menu {
-    background-color: $green2;
+    @include bgd($green2);
   }
 
   .nav-toggle-label:before {

@@ -3,6 +3,10 @@
 Convert scss to CSSS;
 npx sass --watch BMW/index.scss BMW/index.css
 */
+body {
+  font-family: "Arial Narrow";
+}
+
 .top-bar {
   display: flex;
   justify-content: space-between;
