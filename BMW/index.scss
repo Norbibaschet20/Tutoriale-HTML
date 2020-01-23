@@ -1,0 +1,201 @@
+/*
+Convert scss to CSSS;
+npx sass --watch BMW/index.scss BMW/index.css
+*/
+
+@charset "UTF-8";
+
+//variables
+$green1: #454545;
+$green2: #4CAF50;
+$blue1: #0487ff;
+
+@mixin flex-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-bar {
+  @include flex-container;
+  background-color: $green1;
+  padding: 15px;
+  color: white;
+}
+
+.phone, .mail {
+  color: white;
+}
+
+.bmw2 {
+  width: 100%;
+}
+
+/****TOGGLE****/
+.nav-toggle {
+  display: none;
+}
+
+.menu {
+  @include flex-container;
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style-type: none;
+    background-color: $green2;
+    width: auto;
+    padding: 9px 61px;
+    margin: 2px;
+    text-align: center;
+    color: white;
+    max-height: 32px;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    &:hover {
+      background-color: $blue1;
+      color: $green1;
+    }
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.row {
+  width: 100%;
+  @include flex-container;
+}
+
+.left, .right {
+  width: 100%;
+}
+
+.left img {
+  width: 100%;
+  min-width: 740px;
+  max-width: 740px;
+  height: 350px;
+}
+
+.right {
+
+  display: flex;
+  flex-direction: column;
+
+  p {
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  button {
+    background-color: $green2;
+    color: white;
+    width: auto;
+    margin: 30px auto;
+    padding: 10px;
+  }
+}
+
+.seria2, .seria4, .seria6, .seria8 {
+  flex-direction: row-reverse;
+}
+
+.footer {
+  background-color: $green1;
+  @include flex-container;
+  color: white;
+}
+
+.logo {
+  width: 25%;
+  display: flex;
+
+  img {
+    margin: 15px auto 15px auto;
+  }
+}
+
+.contact-details {
+  text-align: center;
+  margin-top: 15px;
+  margin-right: 180px;
+  font-size: 20px;
+
+  .item {
+    display: flex;
+    margin-top: 10px;
+
+    img {
+      width: 35px;
+      height: 35px;
+      margin-right: 10px;
+    }
+
+    address {
+      line-height: 35px;
+      font-size: 17px;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-style: italic;
+      font-size: 18px;
+      margin-top: 5px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .top-bar, .menu, .row, .footer {
+    flex-direction: column;
+  }
+
+  .menu {
+    display: none;
+
+    li {
+      padding: 5px 10px;
+      text-align: left;
+      margin: 0.5px;
+      margin-left: 0;
+
+      a {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .footer .logo {
+    width: 100%;
+  }
+
+  .mobile-menu {
+    background-color: $green2;
+  }
+
+  .nav-toggle-label:before {
+    color: white;
+    content: "☰";
+    padding: 10px;
+  }
+
+  .nav-toggle:checked + .menu {
+    display: flex;
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 780px) and (max-width: 1400px) {
+  .row {
+    flex-direction: column;
+  }
+}
